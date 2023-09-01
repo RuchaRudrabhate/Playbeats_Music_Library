@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Beat - your favourite music is here...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="beatful.png" alt="logo" >  Play Beat</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Best of NCS - No copyrights sounds</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="still with you.jpg" alt="img" class="img">
+                    <span  class="songname">Still with you      </span>
+                    <span class="songlistplay"> <span class="timestamp">4.00 <i id="0 masterPlay"  class="fa-regular  songitemplay fa-1x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="lily.jpg" alt="img" class="img" >
+                    <span class="songname">lily     </span>
+                    <span class="songlistplay"> <span class="timestamp">4.00 <i id="1 masterPlay"  class="fa-regular  songitemplay fa-1x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="sia.jpg" alt="img"class="img" >
+                    <span class="songname">Unstoppable</span>
+                    <span class="songlistplay"> <span class="timestamp">4.00 <i id="2 masterPlay"  class="fa-regular  songitemplay fa-1x fa-circle-play"></i></span></span>
+                
+                </div>
+                <div class="songitem">
+                    <img src="senorita.jpg" alt="img" class="img" >
+                    <span class="songname">Senorita</span>
+                    <span class="songlistplay"> <span class="timestamp">4.00 <i id="3 masterPlay"  class="fa-regular  songitemplay fa-1x fa-circle-play"></i></span></span>
+                
+                </div>
+                <div class="songitem">
+                    <img src="bst.jpg" alt="img" class="img">
+                    <span class="songname">Blood Sweat And Tears-BTS     </span>
+                    <span class="songlistplay"> <span class="timestamp">4.00 <i id="4 masterPlay"  class="fa-regular  songitemplay fa-1x fa-circle-play"></i></span></span>
+                
+                </div>
+                <div class="songitem">
+                    <img src="najaa.jpg" alt="img"class="img" >
+                    <span class="songname">Najaa     </span>
+                    <span class="songlistplay"> <span class="timestamp">4.00 <i id="5 masterPlay"  class="fa-regular  songitemplay fa-1x fa-circle-play"></i></span></span>
+                
+                </div>
+                <div class="songitem">
+                    <img src="ranjha.jpg" alt="img" class="img">
+                    <span class="songname">    Ranjha  </span>
+                    <span class="songlistplay"> <span class="timestamp">4.00 <i id="6 masterPlay"  class="fa-regular  songitemplay fa-1x fa-circle-play"></i></span></span>
+                
+                </div>
+                <div class="songitem">
+                    <img src="r.jpg" alt="img" class="img">
+                    <span class="songname">Rataan lambiyan     </span>
+                    <span class="songlistplay"> <span class="timestamp">4.00 <i id="7 masterPlay"  class="fa-regular  songitemplay fa-1x fa-circle-play"></i></span></span>
+                
+                </div>
+             </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" class="range" id="myprogressBar" min = "0" max="100" value="0">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            
+            <i   class="fa-solid fa-2x fa-backward" id="previous"></i>
+            <i   class="fa-regular fa-2x fa-circle-play " id = "masterPlay"></i>
+            <i   class="fa-solid fa-2x fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="music.gif" alt="img" width="70px" id="gif"><span id="mastersongname"> </span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/6d45926cf6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
